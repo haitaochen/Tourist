@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+header{
+	height: 50px;
+	background-color: rgb(8,8,8);
+}
+
+aside{
+	height: 1000px;
+	background-color: rgb(28,43,54);
+	padding: 0px !important;
+
+}
+
+
+
+aside > a{
+	float: left;
+	width:100%;
+	color: #ffffff;
+	padding: 20px 0 20px 12%;
+	font-size: 1.2em;
+	font-family: 微软雅黑;
+}
+
+aside > a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+aside > a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+aside > a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: rgb(87,142,190);
+}
+
+aside > a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+aside > a.selected{
+	background-color: rgb(87,142,190);
+}
+
+aside >a > span{
+	margin:0 8% 0 0;
+}
+
+section{
+	height: 1000px;
+	background-color: #ffffff;
+	padding: 0px;
+	margin:0px;
+}
+
+
+
+
+
+iframe{
+	margin: 0px;
+	padding: 0px;
+}

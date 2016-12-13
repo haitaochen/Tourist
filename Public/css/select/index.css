@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+body{
+	width: 100%;
+	height: auto;
+	background-image: url(../../images/exchange/bag3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(22,33,78);
+}
+
+header ul{
+	margin: 0 5% 0 0;
+	list-style: none;
+}
+
+header li.navtitle{
+	width: 8%;
+	height: 60px;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size:1.3em;
+	font-weight: bold;
+	padding:15px 0 0 0;
+	position: relative;
+}
+
+header li.navtitle:hover{
+	background-color: whitesmoke;
+	color: #333;
+}
+
+header li.navtitle:hover ul.secnav{
+	display: block;
+}
+
+header ul.secnav{
+	width: 100%;
+	background-color: rgb(22,33,78);
+	position: absolute;
+	top:60px;
+	left: 0px;
+	z-index: 99999999;
+	list-style: none;
+	padding:0 0 10px 0;
+	margin: 0px;
+	display: none;
+}
+
+header ul.secnav > li{
+	width: 100%;
+	float: left;
+	padding:6px 0 6px 0;
+	margin: 0px;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+header ul.secnav > li:hover{
+	background-color: whitesmoke;
+	color: #333;
+}
+
+
+
+/* ************container  */
+
+#container{
+	background-color: #ffffff;
+	margin-bottom: 100px;
+	margin-top: 10px;
+}
+
+#desc{
+	margin-top: 20px;
+}
+
+#desc img{
+	height: 300px;
+	padding:10px;
+	border:1px solid rgb(200,200,200);
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px 1px rgb(200,200,200)
+}
+
+#desc .desc_msg{
+	padding:30px;
+}
+
+#desc .desc_msg h3{
+	color: #333;
+	font-size: 2em;
+	margin:0px;
+	padding:0px;
+	letter-spacing: 20px;
+}
+
+#desc .desc_msg p{
+	color: #333;
+	font-size: 1.15em;
+	margin:50px 0 0 0;
+	padding:0px;
+	text-indent: 2em;
+	color: rgb(22,33,78);
+}
+
+
+
+/********************* content */
+
+#content{
+	margin-top: 30px;
+
+	padding:0 3% 50px 3%; 
+}
+
+#content-top{
+	padding:0px;
+}
+
+#content-top .content-title{
+	width: 15%;
+	height: 50px;
+	border:1px solid rgb(170,170,170);
+	border-bottom: none;
+	border-radius: 8px 8px 0 0;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333;
+	float: left;
+}
+
+#content-top .content-notitle{
+	width: 85%;
+	height: 50px;
+	float: left;
+	border-bottom: 1px solid rgb(170,170,170);
+}
+
+#contentmsg{
+	border: 1px solid rgb(170,170,170);
+	border-top: none;
+	padding:0px;
+}
+
+#contentmsg > h4{
+	width: 100%;
+	margin:20px 0 0px 2%;
+	float: left;
+}
+#contentmsg > h4:first-child{
+	color: red;
+}
+
+#contentmsg .oneday{
+	margin:20px 0 0 0;
+	padding:0 2% 10px 2%;
+	border-bottom: 1px dashed rgb(180,180,180)
+}
+
+#contentmsg .oneday img{
+	width: 20%;
+	height: 120px;
+	border-radius: 8px;
+	padding:0px;
+	float: left;
+}
+
+#contentmsg .oneday .onedaymsg{
+	width: 75%;
+	float: left;
+	margin:0 0 0 2%;
+}
+
+#contentmsg .oneday .onedaymsg h4{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333;
+}
+
+#contentmsg button{
+	width: 20%;
+	margin:20px 0 50px 2%;
+	font-size: 1.5em;
+}

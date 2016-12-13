@@ -1,0 +1,61 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../../images/admin/bg-login.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 0 8% 0 8%;
+}
+
+
+#login{
+	margin-top:15vh;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding:0 0 50px 0;
+	box-shadow: 1px 1px 10px 1px rgb(100,100,100)
+}
+
+
+#titles{
+	background-color: rgb(53,126,189);
+	border-radius: 8px 8px 0 0;
+}
+
+#titles >h3{
+	text-align: center;
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+	padding:15px 0 15px 0;
+	margin:0px;
+}
+
+
+#content{
+	height: auto;
+	margin:10px;
+}
+
+#content > input{
+	width: 80%;
+	height: 40px;
+	margin:30px 0 0 9%;
+	float: left;
+	border-radius: 4px;
+	border:1px solid rgb(204, 204, 204);
+	color: rgb(85, 85, 85);
+	padding:0 1% 0 1%;
+	font-size: 1.1em;
+	box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+
+#content a{
+	width: 30%;
+    margin-top: 40px;
+}

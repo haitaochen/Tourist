@@ -1,0 +1,580 @@
+/* Credit: http://www.cssmoban.com */
+
+html, body {
+	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #00ACE9;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header{
+  margin: 0px;
+}
+
+img.imglogo {
+  	max-width: 100%;
+  	height: auto;
+  	width:100%;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.templatemo_footer {
+	font-size: 13px;
+}
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.btn-primary {
+  background-color: #00ACE9;
+  border-color: #00ACE9;
+}
+
+.mainTop {
+	margin: 0;
+}
+.mailme {
+	line-height: 36px;
+}
+.fa-envelope {
+	margin-right: 10px;
+}
+.socials {
+	overflow: hidden;
+}
+.socials ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	float: right;
+}
+.socials ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+.socials ul li a {
+	display: block;
+}
+.socials ul li a:hover {
+	background-color: #00ACE9;
+	color: whitesmoke;
+}
+.soc {
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 38px;
+}
+
+/* IMG slider TXT */
+.imgTxt {
+  color: white;
+	text-align: center;
+}
+.txtWrap1 {
+  color: white;
+	margin: 0 auto;
+}
+.txtWrap1 ul {
+	margin-bottom: 20px;
+  padding-left: 0;
+}
+.txtWrap1 ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.tinyCell {
+	width: 45px;
+	height: 10px;
+	border-bottom: 2px solid white;
+	position: relative;
+	top: -30px;
+	margin: 0 30px;
+}
+.txtWrap1 h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+.txtWrap1 h1 {
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 3px;
+	margin-top: 0;
+}
+
+.txtWrap2 {
+  color: white;
+  margin: 0 auto;
+}
+.txtWrap2 p {
+	margin-bottom: 30px;
+	color: white;
+	font-weight: 100;
+}
+.listContact,
+.listButton {
+  color: white;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 40px;
+}
+.listContact li {
+	margin: 0 10px;
+	font-weight: 100;
+}
+.listContact i,
+.listContact span {
+	margin-right: 10px;
+}
+.listContact li,
+.listButton li {
+	display: inline-block;
+}
+.listButton li {
+	margin: 0 10px;
+}
+.listButton li a {
+	color: whitesmoke;
+	padding: 10px 35px;
+	border: 1px solid whitesmoke;
+	display: block;
+}
+.listButton li a:hover {
+	cursor: pointer;
+}
+.text-title {cursor:text;}
+.text-title:hover {color:#00ACE9;}
+
+
+
+/* logo + main menu */
+.mWrapper {
+	box-shadow: 0 4px 4px -2px #ddd;
+  	width: 100%;
+  	background-color: rgb(22,33,78);
+    color: #fff;
+  	z-index: 5000;
+}
+.logo {
+	padding: 0;
+}
+.mainMenu {
+}
+.mainMenu ul {
+	float: right;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.mainMenu li {
+	list-style-type: none;
+	display: inline-block;
+}
+.mainMenu li a {
+	display: block;
+	text-transform: uppercase;
+	padding: 20px;
+  color: #fff;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.mainMenu li a:hover {
+	background-color: whitesmoke;
+	color: #333; 
+}
+
+/* section 1 */
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+	padding-bottom: 30px;
+	padding-top: 0px;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+#templatemo_services{
+  padding: 80px 0 150px 0;
+}
+
+
+#templatemo_services fieldset{
+  width: 80%;
+  margin: 0 0 0 10%;
+  border:7px solid #fff;
+  padding: 30px 0 50px 0;
+}
+
+#templatemo_services legend{
+  width: 40%;
+  margin: 0 0 0 30%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  border:none;
+}
+
+#templatemo_services p{
+  width: 90%;
+  margin: 10px 0 0 5%;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+  line-height: 2.8em;
+  font-family: 'Youyuan'
+}
+
+
+/* section 2 */
+#templatemo_portfolio{
+  padding: 80px 0 150px 0;
+  background-color: #F4F4F4;
+}
+
+#templatemo_portfolio h3{
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(17,172,200);
+  letter-spacing: 5px;
+}
+
+#templatemo_portfolio h4{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(17,172,200);
+}
+
+#templatemo_portfolio .routes{
+  width:80%;
+  height: 700px;
+  margin: 0 0 0 10%;
+}
+
+#templatemo_portfolio .oneroute{
+  width: 25%;
+  height: 350px;
+  float: left;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow:hidden;
+}
+
+#templatemo_portfolio .oneroute .routecover{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: rgba(78, 164, 181, 0.65);
+}
+
+#templatemo_portfolio .oneroute .routecover> h1{
+  text-align: center;
+  font-size: 14em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#templatemo_portfolio .oneroute .routecover >h4{
+  width: 80%;
+  margin:0 0 5px 10%;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 2px solid #ffffff;
+  padding: 0 0 10px 0;
+}
+
+#templatemo_portfolio .oneroute .routecover >p{
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#templatemo_portfolio .oneroute .routeflow{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: none;
+  animation:routeflows 0.5s infinite;
+  -moz-animation:routeflows 0.5s infinite; /*Firefox*/
+  -webkit-animation:routeflows 0.5s infinite; /*Safari and Chrome*/
+  animation-iteration-count:1;
+  -moz-animation-iteration-count:1; /*Firefox*/
+  -webkit-animation-iteration-count:1; /*Safari and Chrome*/
+}
+
+@keyframes routeflows
+{
+  from {bottom:-200px;}
+  to {bottom: 0px;}
+}
+
+@-moz-keyframes routeflows/*Firefox*/
+{
+  from {bottom:-200px;}
+  to {bottom: 0px;}
+}
+
+@-webkit-keyframes routeflows /*Safari and Chrome*/
+{
+  from {bottom:-200px;}
+  to {bottom: 0px;}
+}
+
+#templatemo_portfolio .oneroute .routeflow>h2{
+  text-align: center;
+  color: rgb(20,185,214);
+  font-size: 8em;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0.8em;
+}
+
+#templatemo_portfolio .oneroute .routeflow>h3{
+  width: 80%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 15px 10%;
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid #fff;
+}
+
+#templatemo_portfolio .oneroute .routeflow>p{
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+
+
+#templatemo_portfolio .oneroute:hover  .routecover{
+  display: none;
+}
+
+
+#templatemo_portfolio .oneroute:hover  .routeflow{
+  display: block;
+}
+
+
+
+/* section 5 */
+
+.addr {
+
+}
+.addr ul {
+  padding-left: 0;
+}
+.addr ul li {
+  list-style-type: none;
+} 
+.addr ul li i {
+  width: 14px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  color: #00ACE9;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+
+.gotop {
+  background-color: #ddd;
+  padding: 15px 0;
+}
+.bfWrap {
+  padding: 20px 0;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-width : 480px) {
+
+  #slider-direction-nav,
+	#slider-control-nav { opacity: 1; }
+	.mailme {
+		
+	}
+	.socials ul {
+		float: none;
+		text-align: center;
+	}
+  .mainMenu li a {
+		padding: 5px;
+    font-size: 8px;
+	}
+  .secHeader {
+    width: 100%;
+  }
+  .txtWrap1 {
+    margin-bottom: 10px;
+  }
+  .txtWrap1 h2,
+  .txtWrap1 h1 {
+    font-size: 14px;
+  }
+  .listContact, .listButton {
+    margin-top: 20px;
+  }
+  .menuSwitch ul li {
+    padding: 5px;
+    font-size: 11px;
+  }
+  .teamInfo ul li {
+    width: 50%;
+  }
+  .imgWrp {
+    height: 150px !important;
+  }
+  .imgWrp:hover {
+      height: 150px;
+      opacity: 1;
+      margin-top: 0px;
+  }
+  .txtarea {
+    margin: 20px 0;
+  }
+  #box-img_testimonial a {
+    width: 30px;
+  }
+  .opener span:before,
+  .opener span:after {
+    width: 25%;
+  }
+}
+
+@media(max-width:767px){
+	.mailme {
+		
+	}
+	.logo {
+		text-align: center;
+	}
+	.socials ul {
+		float: none;
+		text-align: center;
+	}
+	.mainMenu ul {
+		float: none;
+		text-align: center;
+	}
+	.mainMenu li a {
+		padding: 10px;
+	}
+  .teamInfo ul li {
+    width: 50%;
+  }
+  .imgWrp {
+    height: 220px;
+  }
+  .imgWrp:hover {
+      height: 220px;
+      opacity: 1;
+      margin-top: 0px;
+  }
+  .txtarea {
+    margin: 20px 0;
+  }
+  .info3 {
+    margin-bottom: 30px;
+  }
+}
+@media(min-width:768px){
+	.mainMenu li a {
+		padding: 20px 10px;
+	}
+  .socials ul {
+    float: none;
+    text-align: center;
+  }
+  .imgWrp {
+    height: 160px;
+  }
+  .imgWrp:hover {
+      height: 160px;
+      opacity: 1;
+      margin-top: 0px;
+  }
+  .txtarea {
+    margin: 20px 0;
+  }
+  #box-img_testimonial a {
+    width: 40px;
+  }
+  .opener span:before,
+  .opener span:after {
+    width: 30%;
+  }
+  .info3 {
+    margin-bottom: 30px;
+  }
+}
+@media(min-width:992px){
+	.mainMenu li a {
+		padding: 20px;
+	}
+  .imgWrp {
+    height: 190px;
+    opacity: 0.5;
+  }
+  .imgWrp:hover {
+      height: 220px;
+      opacity: 1;
+      margin-top: -15px;
+  }
+  .txtarea {
+    margin: 0;
+  }
+  #box-img_testimonial a {
+    width: 50px;
+  }
+  .opener span:before,
+  .opener span:after {
+    width: 45%;
+  }
+  .socials ul {
+    float: right;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#slider-direction-nav,
+	#slider-control-nav { opacity: 1; }
+
+}

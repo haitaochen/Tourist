@@ -1,0 +1,362 @@
+#container{
+	    	width: 100%;
+	    	height: auto;
+	    	background-image: url(../images/exchange/bag7.jpg);
+	    	background-repeat: no-repeat;
+	    	background-size: 100% 100%;
+	    }
+
+
+	    #title{
+	    	height: 160px;
+	    	padding-top: 50px;
+	    	padding-left: 50px;
+	    }
+
+	    	#title h3{
+	    		display: inline;
+	    		color: white;
+	    		font-size: 1.6em;
+	    		margin-right: 40px;
+	    		font-family: Microsoft YaHei;
+	    		font-weight: bold;
+	    	}
+
+
+	    #body{
+	    	height: auto;
+	    	background-color: #fcfafa;
+	    	margin-bottom: 200px;
+	    	padding: 10px;
+	    	padding-bottom: 80px;
+	    }
+
+
+	    	#toppic{
+	    		height: auto;
+	    	}
+
+	    			#toppic h4{
+	    				font-family: Microsoft YaHei;
+	    				font-size: 1.3em;
+	    				font-weight: bold;
+	    				color:rgba(51, 51, 51, 0.8);
+	    				margin-top: 30px;
+	    				margin-bottom: 20px;
+	    			}
+
+
+	    	#message{
+	    		height: auto;
+	    		margin-top: 50px;
+	    	}
+
+
+	    			#message-left{
+	    				height: auto;
+	    				padding-left: 50px;
+	    			}
+
+
+	    					#msgtop{
+	    						height:50px;
+	    						border-radius: 5px 5px 0px 0px;
+	    						border:1px solid rgba(183, 183, 183, 0.79);
+	    						border-bottom:1px solid #fcfafa;
+	    						text-align: center;
+	    						padding-top: 8px;
+	    						font-family: Microsoft YaHei;
+	    						font-size: 1.2em;
+	    						font-weight: bold;
+	    						color: rgb(102,101,101);
+	    					}
+
+	    					#msgnot{
+	    						height:50px;
+	    						border-bottom:1px solid #dedbdb;
+	    					}
+
+
+	    					#msgcontent{
+	    						height: auto;
+	    						border-radius: 0px 0px 5px 5px;
+	    						border:1px solid rgba(183, 183, 183, 0.79); 
+	    						border-top:1px solid #fcfafa;
+
+	    					}
+
+
+	    							#onemsg{
+	    								font-family: Microsoft YaHei;
+	    								font-size: 1.1em;
+	    								color: rgba(0,0,0,0.7);
+	    								margin-bottom: 20px;
+	    								padding-left: 30px;
+	    							}
+
+	    							#onemessage:hover{
+	    								border-bottom: 1px dashed rgba(0,0,0,0.3);
+	    								color: #38afe5;
+	    							}
+
+	    			#message-right{
+	    				height: auto;
+	    			}
+
+	    					#detail{
+	    						height:auto;
+	    						margin-top: 50px;
+	    						padding-bottom: 20px;
+	    						border-radius: 8px;
+	    						border:1px solid rgba(183, 183, 183, 0.79);
+	    						font-size: 1em;
+	    						font-family: 幼圆;
+	    						font-weight: bold;
+	    						line-height: 33px;
+	    						color:rgba(0,0,0,0.8);
+	    					}
+
+
+	    					#detail h3{
+	    						text-align: center;
+	    						font-size: 1.2em;
+	    						font-family: Microsoft YaHei;
+	    						font-weight: bold;
+	    						color: #333;
+	    						margin-bottom: 10px;
+	    					}
+
+	    	#post{
+	    		padding-left:100px;
+	    		padding-right:100px;
+	    	}
+				    	#posttitle{
+				    		margin-top: 20px;
+				    		height: 50px;
+				    		border-radius: 5px 5px 0px 0px;
+				    		border:1px solid rgba(183, 183, 183, 0.79);
+				    		border-bottom:1px solid #fcfafa;
+				    		text-align: center;
+	    						padding-top: 8px;
+	    						font-family: Microsoft YaHei;
+	    						font-size: 1.2em;
+	    						font-weight: bold;
+	    						color: rgb(102,101,101);
+				    	}
+
+				    	#postnot{
+				    		margin-top: 20px;
+				    		height:50px;
+				    		border-bottom:1px solid #dedbdb;
+				    	}
+
+
+				    	#postmessage{
+				    		height: auto;
+				    		border-radius: 0px 0px 5px 5px;
+				    		border:1px solid rgba(183, 183, 183, 0.79); 
+				    		border-top:1px solid #fcfafa;
+				    		font-family: Microsoft YaHei;
+				    		text-align: right;
+	    						font-size: 1em;
+	    						font-weight: bold;
+	    						color: rgb(102,101,101); 
+				    	}
+
+
+				  #description{
+				  	margin-top: 120px;
+				  	font-size: 1em;
+	    			font-family: 幼圆;
+	    			font-weight: bold;
+	    			line-height: 35px;
+	    						color:rgba(0,0,0,0.8);
+				  }
+
+
+	#footer{
+		padding-top: 20px;
+		background-color: white;
+		text-align: center;
+	}
+
+
+
+
+
+	    a.a1:link{
+			color: white;
+			text-decoration: none;
+		}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color:white;
+		}
+
+		a.a1:hover{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color:white;
+		}
+
+
+		a.a2:link{
+			color: rgba(51, 51, 51, 0.88);
+			text-decoration: none;
+		}
+
+		a.a2:visited{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a2:hover{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a2:active{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+
+
+.grid_4 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+
+.boxes a.btn {
+	padding: 4px 16px 4px ;
+}
+a.btn {
+	color: #000;
+	display: inline-block;
+	background-color: #fbf6f8;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px #dedbdb;
+	font-size: 15px;
+	border: 1px solid #b1aaaa;
+	line-height: 15px;
+	padding: 5px 16px 4px ;
+}
+
+a.btn:hover {
+	border-color: #476788;
+	color: #fff;
+	background-color: #38AFE5;
+}
+
+
+
+
+.boxes>div {
+	position: relative;
+}
+
+.boxes figure figcaption{
+	background-color: rgb(24,49,73);
+	position: absolute;
+	top: 0;
+	font-size: 13px;
+	line-height: 19px;
+	color: #cbc6c6;
+	text-align: left;
+	left: 0;
+	height: 100%;
+	width: 183px;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	-o-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	-o-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+			 -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+
+.boxes figure div {
+	overflow: hidden;
+}
+
+.boxes figure {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	-ms-perspective: 1700px;
+	-o-perspective: 1700px;
+	 perspective: 1700px;
+    
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    -ms-perspective-origin: 0 50%;
+    -o-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+	background-color: #193149;
+}
+
+
+
+.boxes figure img {
+	position: relative;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+.boxes figure:hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+.boxes figure:hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	-o-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+figcaption h3{
+	font-size: 2em;
+	font-family: Microsoft YaHei;
+	margin-left: 10px;
+}
+
+figcaption p{
+	font-size: 1.2em;
+	font-family: Microsoft YaHei;
+	margin-left: 5px;
+	padding: 15px;
+}

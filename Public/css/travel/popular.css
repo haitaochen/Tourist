@@ -1,0 +1,445 @@
+*{
+	.font-family: 'Microsoft YaHei';
+}
+
+body{
+	background-image: url(../../images/travel/bag1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(22,33,78);
+}
+
+header ul{
+	margin: 0 5% 0 0;
+	list-style: none;
+}
+
+header li.navtitle{
+	width: 8%;
+	height: 60px;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size:1.3em;
+	font-weight: bold;
+	padding:15px 0 0 0;
+	position: relative;
+}
+
+header li.navtitle:hover{
+	background-color: whitesmoke;
+	color: #333;
+}
+
+header li.navtitle:hover ul.secnav{
+	display: block;
+}
+
+header ul.secnav{
+	width: 100%;
+	background-color: rgb(22,33,78);
+	position: absolute;
+	top:60px;
+	left: 0px;
+	z-index: 99999999;
+	list-style: none;
+	padding:0 0 10px 0;
+	margin: 0px;
+	display: none;
+}
+
+header ul.secnav > li{
+	width: 100%;
+	float: left;
+	padding:6px 0 6px 0;
+	margin: 0px;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+header ul.secnav > li:hover{
+	background-color: whitesmoke;
+	color: #333;
+}
+
+header ul.secnav > li > a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header ul.secnav > li > a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header ul.secnav > li > a:hover{
+	color: #333;
+	text-decoration: none;
+}
+
+header ul.secnav > li > a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+#container{
+	width: 100%;
+	height: auto;
+	margin: 20px 0 0 0;
+}
+
+
+
+#title{
+	height: 160px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#title h3{
+	display: inline;
+	color: white;
+	font-size: 1.6em;
+	margin-right: 40px;
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+}
+
+
+#body{
+	height: auto;
+	background-color: #fcfafa;
+	margin-bottom: 200px;
+	padding: 10px;
+	padding-bottom: 80px;
+}
+
+
+#toppic{
+	height: auto;
+}
+
+#toppic h4{
+	font-family: 'Microsoft YaHei';
+	font-size: 2em;
+	color: rgb(22,33,78);
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#toppic >p{
+	font-family: 'Microsoft YaHei';
+	font-size: 1.2em;
+	font-weight: bold;
+	color:rgba(51, 51, 51, 0.8);
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+#message{
+	height: auto;
+	margin-top: 50px;
+}
+
+
+#message-left{
+	height: auto;
+	padding-left: 50px;
+}
+
+
+#msgtop{
+	height:50px;
+	border-radius: 5px 5px 0px 0px;
+	border:1px solid rgba(183, 183, 183, 0.79);
+	border-bottom:1px solid #fcfafa;
+	text-align: center;
+	padding-top: 8px;
+	font-family: 'Microsoft YaHei';
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(102,101,101);
+}
+
+#msgnot{
+	height:50px;
+	border-bottom:1px solid #dedbdb;
+
+}
+
+
+#msgcontent{
+	height: auto;
+	border-radius: 0px 0px 5px 5px;
+	border:1px solid rgba(183, 183, 183, 0.79); 
+	border-top:1px solid #fcfafa;
+	padding-top: 20px;
+}
+
+#msgcontent .searchs> label{
+	font-size: 1.15em;
+	float: left;
+	margin: 7px 0 10px 0;
+}
+
+#msgcontent .searchs> input{
+	width: 40%;
+	float: left;
+	margin: 0 0 10px 1%;
+}
+
+#contenttitle{
+	font-family: 'Microsoft YaHei';
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #333;
+	margin-top: 5px;
+}
+
+ul.ul1{
+	list-style:none;
+}
+
+ul.ul1 li{
+	float: left;
+	margin-left: 20px;
+	font-family: 'Microsoft YaHei';
+	font-size: 1em;
+	font-weight: bold;
+	color: #333;
+	margin-top: 4px;
+}
+
+
+li:hover{
+	color: white;
+	background-color: #333;
+}
+
+#onetravel{
+	height: auto;
+	border:1px dashed rgba(0,0,0,0.3);
+	font-family: 'Microsoft YaHei';
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #333;
+}
+
+#onetravel h3{
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 20px;
+}
+
+#onetravel p{
+	margin-bottom: 20px;
+}
+
+
+
+	    						
+
+
+
+	    	
+
+
+	#footer{
+		padding-top: 20px;
+		background-color: white;
+		text-align: center;
+	}
+
+
+
+
+
+	    a.a1:link{
+			color: white;
+			text-decoration: none;
+		}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color:white;
+		}
+
+		a.a1:hover{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color:white;
+		}
+
+
+		a.a2:link{
+			color: rgba(51, 51, 51, 0.88);
+			text-decoration: none;
+		}
+
+		a.a2:visited{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a2:hover{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+		a.a2:active{
+			text-decoration:none; 
+			color:rgba(51, 51, 51, 0.88);
+		}
+
+
+
+.grid_4 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+
+.boxes a.btn {
+	padding: 4px 16px 4px ;
+}
+a.btn {
+	color: #000;
+	display: inline-block;
+	background-color: #fbf6f8;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px #dedbdb;
+	font-size: 15px;
+	border: 1px solid #b1aaaa;
+	line-height: 15px;
+	padding: 5px 16px 4px ;
+}
+
+a.btn:hover {
+	border-color: #476788;
+	color: #fff;
+	background-color: #38AFE5;
+}
+
+
+
+
+.boxes>div {
+	position: relative;
+}
+
+.boxes figure figcaption{
+	background-color: rgb(24,49,73);
+	position: absolute;
+	top: 0;
+	font-size: 13px;
+	line-height: 19px;
+	color: #cbc6c6;
+	text-align: left;
+	left: 0;
+	height: 100%;
+	width: 183px;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	-o-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	-o-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+			 -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+
+.boxes figure div {
+	overflow: hidden;
+}
+
+.boxes figure {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	-ms-perspective: 1700px;
+	-o-perspective: 1700px;
+	 perspective: 1700px;
+    
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    -ms-perspective-origin: 0 50%;
+    -o-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+	background-color: #193149;
+}
+
+
+
+.boxes figure img {
+	position: relative;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+.boxes figure:hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+.boxes figure:hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	-o-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+figcaption h3{
+	font-size: 2em;
+	font-family: Microsoft YaHei;
+	margin-left: 10px;
+}
+
+figcaption p{
+	font-size: 1.2em;
+	font-family: Microsoft YaHei;
+	margin-left: 5px;
+	padding: 15px;
+}
